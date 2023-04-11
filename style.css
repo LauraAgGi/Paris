@@ -1,0 +1,29 @@
+body{
+    width: 960px;
+    margin:10px 20px;
+    text-align: center;
+
+}
+img{
+    width: 600px;
+    height:450px;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color:crimson;
+    border: 1px solid crimson;
+    border-radius: 20px;
+    margin:50px 10px;
+    transition:1s;
+}
+a:hover{
+    padding:15px;
+    color:white;
+    background: crimson;
+    font-size: 20px;
+}
